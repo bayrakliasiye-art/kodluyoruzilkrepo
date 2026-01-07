@@ -86,4 +86,40 @@ O(n log n)
 
 
 
+Dizi:
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+Aşamalar:
+	•	Root 7’dir.
+	•	5, 7’den küçük olduğu için root’un soluna yerleştirilir.
+	•	1, 7’den küçük → sola; 5’ten küçük → 5’in soluna yerleştirilir.
+	•	8, 7’den büyük olduğu için root’un sağına yerleştirilir.
+	•	3, 7’den küçük → sola; 5’ten küçük → sola; 1’den büyük → 1’in sağına yerleştirilir.
+	•	6, 7’den küçük → sola; 5’ten büyük → 5’in sağına yerleştirilir.
+	•	0, 7’den küçük → sola; 5’ten küçük → sola; 1’den küçük → 1’in soluna yerleştirilir.
+	•	9, 7’den büyük → sağa; 8’den büyük → 8’in sağına yerleştirilir.
+	•	4, 7’den küçük → sola; 5’ten küçük → sola; 1’den büyük → sağa; 3’ten büyük → 3’ün sağına yerleştirilir.
+	•	2, 7’den küçük → sola; 5’ten küçük → sola; 1’den büyük → sağa; 3’ten küçük → 3’ün soluna yerleştirilir.
+
+⸻
+
+Oluşan BST (Özet):
+	•	Root: 7
+	•	Sol alt ağaç: 5
+	•	Sol: 1
+	•	Sol: 0
+	•	Sağ: 3
+	•	Sol: 2
+	•	Sağ: 4
+	•	Sağ: 6
+	•	Sağ alt ağaç: 8
+	•	Sağ: 9
+
+
+
+
+
+
+
+
 
